@@ -1,0 +1,23 @@
+# Interactions.py
+
+python interactions.py ./4932.protein.actions.v10.txt/4932.protein.actions.v10.txt 
+
+# Data Processing
+
+python data_processing.py /home/bioinformatics/Desktop/KU/Master_Thesis output_mentions_yeast_1 output_pairs_yeast_1 ./yeast/yeast_entities.tsv ./4932.protein.actions.v10.txt/4932.protein.actions.v10.txt
+
+# python grid_search_computerome.py Bag_of_Words_df.tsv FeatureCount #
+#!!!!!!!!!!!!!!! DO NOT RUN ON ANYTHING OTHER THAN COMPUTEROME !!!!!!!!!!!!!#
+
+
+# python make_models.py Bag_of_Words_df.tsv FeatureCount #
+# SLOW AND SHOULD BE RUN ON COMPUTEROME#
+
+
+# python plotting_gs.py #
+# IN A FOLDER WITH ALL GRID SEARCH RESULTS#
+
+# python plotting.py #
+# IN A FOLDER WITH Full_Models.tsv#
+
+
